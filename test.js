@@ -17,7 +17,8 @@ rl.question('Press enter to exit\n\n', (answer) => {
     rl.close();
 });
 
-addon.logEvent("About to run an activity");
+//todo:hh docs: node native api
+addon.logEvent({ harun: "heybet" });
 addon.logStartCommand("init", "starting to run");
 addon.logEvent("this is a test");
 addon.logStartUpdateProgram("program changed");
